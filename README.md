@@ -32,3 +32,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+// Cheatsheet for nextJs,
+
+
+
+
+npx create-next-app appname
+
+trier les dossiers inutiles ,
+le main folder est le App pas le Index,
+pas besoin de brower router, juste faire des <Link to="/nomdelapage" /> avec des <a></a>
+server side rendering = pas possible de faire des document.getElement ou document.querySelector, faire avec des STATE, des REF et des Effects
